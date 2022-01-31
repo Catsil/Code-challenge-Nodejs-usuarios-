@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS register;
+
+USE register;
+
+CREATE TABLE users(
+id INT(11) NOT NULL AUTO_INCREMENT,
+name VARCHAR(45) DEFAULT NULL,
+PRIMARY KEY(id)
+);
+
+DESCRIBE users;
+
+INSERT INTO users values
+(1, 'maria');
+
+SELECT * FROM users;
+
+
